@@ -1,0 +1,232 @@
+.container-details {
+    display: flex;
+    height: 80%;
+}
+
+.container-details-img {
+    width: 800px;
+}
+
+.container-details-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.details__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.details-info__fieldset .details__price {
+    color: rgb(22, 99, 201);
+    font-weight: bold;
+}
+
+.details__description {
+    text-align: justify;
+}
+
+.details__button {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    background-color: royalblue;
+    border: unset;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    transition: background-color .5s, transform .5s, box-shadow .5s;
+}
+
+
+.details__button:hover {
+    box-shadow: 0 3px 8px rgb(104, 104, 104);
+    transform: scale(1.05);
+}
+
+
+.button-div__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: top 1s;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+
+
+.button-div__car {
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    transform: translate(-50%, -50%);
+    transition: left 1s;
+}
+
+.car-animation {
+    animation: carAnimation 2.5s forwards;
+}
+
+
+.button-div__box {
+    position: absolute;
+    top: -50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.box-animation {
+    animation: boxAnimation 2.5s forwards;
+}
+
+
+
+/* Estilo para el fieldset */
+.details-info__fieldset {
+    border: 2px solid #4169e1;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.details-info__fieldset legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4169e1;
+    padding: 0 10px;
+    border: none;
+    position: relative;
+    top: -10px;
+}
+
+.details-info__fieldset p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .quantity-container label {
+    font-size: 16px;
+  }
+  
+  .quantity-container input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .quantity-container .quantity-btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-container .quantity-btn:hover {
+    background-color: #ddd;
+  }
+  
+  .quantity-container input:focus {
+    outline: none;
+    border-color: #007BFF;
+  }
+  
+
+
+
+@keyframes carAnimation {
+    0% {
+        left: -100%;
+    }
+
+    40% {
+        left: 50%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    60% {
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        left: 130%;
+        transform: translate(-50%, -50%) rotate(-20deg);
+    }
+}
+
+@keyframes boxAnimation {
+    0% {
+        top: -50%;
+        left: 55%;
+    }
+
+    40% {
+        top: -50%;
+        left: 55%;
+    }
+
+    50% {
+        top: 30%;
+        left: 55%;
+        transform: translate(-50%, -50%) rotate(55deg);
+    }
+
+    60% {
+        top: 30%;
+        left: 55%;
+        transform: translate(-50%, -50%) rotate(60deg);
+
+    }
+
+    100% {
+        top: 30%;
+        left: 130%;
+    }
+}
+
+
+@media (max-width: 966px) {
+    .container-details {
+
+        flex-wrap: wrap;
+    }
+    .container-details-img{
+        height: 320px;
+    }
+    .modal-content {
+        height: auto;
+    }
+    .details__button {
+        margin: 20px;
+    }
+}

@@ -1,0 +1,90 @@
+
+.filter{
+    width: 250px;
+    margin-right: 50px;
+    border-right: 1px solid #cccccc;
+}
+
+/* Estilos generales del select */
+select {
+    width: 90%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    margin: 5%;
+}
+
+/* Estilos para cuando el select está focus */
+select:focus {
+    border-color: #007BFF;  
+    outline: none; 
+}
+
+/* Estilos para las opciones dentro del select */
+select option {
+    padding: 10px;  
+    font-size: 16px; 
+}
+
+/* Estilo personalizado para el botón de dropdown (flecha) */
+select::-ms-expand {
+    display: none;  /* Oculta la flecha de dropdown en IE */
+}
+
+/* Para personalizar la flecha */
+select {
+    background-image: url('/svg/arrow-down-angle.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 5%;
+}
+
+
+input[type="text"]:focus {
+    border-color: #007BFF;  
+    outline: none;  
+}
+
+
+input[type="text"]::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+
+input[type="text"] {
+    background-image: url('/svg/search.svg');  
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+}
+
+
+@media (max-width: 650px) {
+    .filter{
+        width: 100%;  
+        margin-right: 50px;
+        border-right: unset;
+        border-bottom: 1px solid #cccccc;
+    }
+    
+}

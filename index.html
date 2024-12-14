@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <script defer type="module" src="./js/app.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav-products.css">
+    <link rel="stylesheet" href="css/product-list-container.css">
+    <link rel="stylesheet" href="css/product-grid.css">
+    <link rel="stylesheet" href="css/filter-panel.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/products-details.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="shopping" class="logo-buy">
+            <img height="50" src="/svg/carrito-compra.svg" alt="Carrito">
+            <div id="product-count" class="number-products">0</div>
+        </div>
+    </header>
+    
+    <div id="basket-nav" class="basket-nav">
+        <div id="basket-nav-container-card"></div>
+        <div class="total-pay" id="price-for-pay">Total a pagar: 0 €</div>
+    </div>
+
+    <div class="container-list" id="container">
+        <h1 class="list__title">Lista de productos</h1>
+        <div class="container-box">
+            <div class="filter">
+                <h2 class="filter__title">Filtros</h2>
+                <label for="product-category" class="ml-5">Categoría del producto</label>
+                <select id="product-category" name="category">
+                    <option value="notFilter">Sin filtros</option>
+                </select>
+                <input type="text" id="search" placeholder="Buscar producto...">
+            </div>
+            <div id="container-card" class="container-card"></div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div id="modal-content" class="modal-content">
+
+        </div>
+    </div>
+</body>
+
+</html>

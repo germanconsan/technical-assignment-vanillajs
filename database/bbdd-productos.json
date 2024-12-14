@@ -1,0 +1,60 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "img": "https://www.yaphone.com/6343-thickbox_default/apple-iphone-16.jpg",
+      "nombre": "Iphone 16",
+      "precio": 599.99,
+      "categoria": "Electrónica",
+      "descripcion": "El Iphone 16 ofrece una cámara avanzada, un rendimiento increíble con el chip A16, y una pantalla OLED de alta calidad. Ideal para quienes buscan lo último en tecnología móvil."
+    },
+    {
+      "id": 2,
+      "img": "https://casadelasbatas.com/21734-large_default/camiseta-basica-blanca-rossini.jpg",
+      "nombre": "Camiseta Básica",
+      "precio": 19.99,
+      "categoria": "Ropa",
+      "descripcion": "Una camiseta básica blanca, cómoda y versátil, perfecta para combinar con cualquier atuendo. Hecha de algodón suave, ideal para el día a día."
+    },
+    {
+      "id": 3,
+      "img": "https://gamingcomputer.es/76084-large_default/portatil-gaming-acer-nitro-v16-ryzen-5-8645hs-16gb-512gb-rtx-4050.jpg",
+      "nombre": "Laptop Gaming ACER",
+      "precio": 1299.99,
+      "categoria": "Electrónica",
+      "descripcion": "La Laptop Gaming ACER Nitro V16 con procesador Ryzen 5, 16GB de RAM, 512GB SSD y tarjeta gráfica RTX 4050, te permitirá disfrutar de una experiencia de juego fluida y de alta calidad."
+    },
+    {
+      "id": 4,
+      "img": "https://mobiocasion.com/40824-thickbox_default/silla-ergonomica-de-oficina-new-ergostone-de-euromof.jpg",
+      "nombre": "Silla Ergonómica",
+      "precio": 199.99,
+      "categoria": "Hogar",
+      "descripcion": "Una silla ergonómica diseñada para proporcionar comodidad y soporte durante largas horas de trabajo. Perfecta para mejorar la postura y la productividad en la oficina o en casa."
+    },
+    {
+      "id": 5,
+      "img": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/0733430957967_1.jpg",
+      "nombre": "Auriculares Inalámbricos",
+      "precio": 89.99,
+      "categoria": "Electrónica",
+      "descripcion": "Auriculares inalámbricos con cancelación de ruido, sonido de alta calidad y conexión Bluetooth. Perfectos para escuchar música o realizar llamadas con total comodidad."
+    },
+    {
+      "id": 6,
+      "img": "https://www.izapatillas.com/27695-large_default/zapatilla-baloncesto-nike-precision-5-blanca-cw3403-101.jpg",
+      "nombre": "Zapatos Deportivos",
+      "precio": 49.99,
+      "categoria": "Ropa",
+      "descripcion": "Zapatos deportivos Nike Precision 5, ideales para deportes y actividades físicas. Con una suela antideslizante y un diseño cómodo, ofrecen el soporte necesario para cualquier entrenamiento."
+    },
+    {
+      "id": 7,
+      "img": "https://www.novomedicweb.com/wp-content/uploads/2017/07/almohada-cervical-480x318.jpg",
+      "nombre": "Almohada Memory Foam",
+      "precio": 39.99,
+      "categoria": "Hogar",
+      "descripcion": "Almohada ortopédica de Memory Foam, diseñada para ofrecer un descanso cómodo y mejorar la postura durante el sueño. Perfecta para aliviar dolores cervicales y mejorar la calidad del descanso."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.container-list{
+    max-width: 90vw;
+    margin: 0 auto;
+    min-height: 80vh;
+    height: auto;
+}
+
+.list__title{
+   padding-top: 50px;
+}
+
+.filter__title{
+    padding-left: 10px;    
+}
+ 
+.container-box{
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    .container-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
